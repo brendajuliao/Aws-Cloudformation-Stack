@@ -29,6 +29,14 @@ Isso significa que, em vez de criar manualmente cada recurso na AWS, você descr
 ## Template Criado  
 O arquivo abaixo (`main-stack.yaml`) foi criado para representar uma Stack simples com um **Bucket S3** privado.  
 
+## Validação do Template
+
+Caso tivesse acesso à AWS CLI configurada, o comando para validar o template seria:
+
+```bash
+aws cloudformation validate-template --template-body file://templates/main-stack.yaml
+
+
 ```yaml
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Stack de exemplo para o desafio DIO - Implementando sua primeira Stack com CloudFormation.
