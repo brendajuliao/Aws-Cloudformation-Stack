@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Stack de exemplo para o desafio DIO - Implementando sua primeira Stack com CloudFormation.
+  Contém um bucket S3 simples como recurso de exemplo.
+
+Resources:
+  MeuBucketS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: meu-primeiro-bucket-cloudformation-brendajuliao
+      AccessControl: Private
