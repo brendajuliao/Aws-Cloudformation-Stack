@@ -1,4 +1,4 @@
-# ☁️ Implementando Minha Primeira Stack com AWS CloudFormation  
+# Implementando Minha Primeira Stack com AWS CloudFormation  
 
 Este repositório faz parte do **Desafio da DIO - Formação AWS Cloud Practitioner**, com o objetivo de criar e gerenciar recursos na **AWS** utilizando o **AWS CloudFormation**.
 
@@ -6,7 +6,7 @@ Mesmo sem acesso à conta AWS, toda a estrutura, o template e os conceitos foram
 
 ---
 
-## 🧭 Objetivo do Desafio  
+## Objetivo do Desafio  
 - Entender o que é o AWS CloudFormation  
 - Aprender a escrever templates YAML  
 - Simular a criação de uma Stack  
